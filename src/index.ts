@@ -44,7 +44,7 @@ function addListItem(task: Task) {
   checkbox.checked = task.completed
   label.append(checkbox, task.title)
   item.append(label)
-  list?.append(item)
+  list?.append(item)  
   
 }
 
