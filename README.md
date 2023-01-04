@@ -1,24 +1,23 @@
-# New Project
+# TypeScript-to-do-list
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+<!-- 1: npm init -y 
+sets up package.json-->
 
-## Available Scripts
+<!-- 2: npm i --save-dev typescript 
+downloads typescript to computer-->
 
-### npm start
+<!-- 3. npx tsc --init 
+creates ts config file-->
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+<!-- 4. add src folder with script.js and dest folder  -->
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+<!-- 5. add "start": "tsc --watch" to the scripts in package.json -->
 
-### npm run build
+<!-- 6. run npm start in terminal -->
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+<!-- 7. change "outDir" in ts.config file to the dest folder. -->
 
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
+<!-- 8. change it to "module": "es6" in ts.congfig file -->
 
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+<!-- 9. npx create-snowpack-app . --template @snowpack/app-template-blank-typescript --force
+delete everything and run this. snowpack is a bundler-->
