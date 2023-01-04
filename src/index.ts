@@ -50,10 +50,10 @@ function addListItem(task: Task) {
 
 function saveTasks() {
   localStorage.setItem("TASKS", JSON.stringify(tasks))
-}
+} 
 
 function loadTasks(): Task[] {
   const taskJSON = localStorage.getItem("TASKS")
   if (taskJSON == null) return []
   return JSON.parse(taskJSON)
-}
+} 
