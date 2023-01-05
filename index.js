@@ -14,7 +14,7 @@ form.addEventListener("submit", e => {
 
   const newTask = {
     title: input.value,
-    completed: true,
+    completed: false,
     createdAt: new Date()
   }
 
