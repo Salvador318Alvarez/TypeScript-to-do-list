@@ -1,0 +1,28 @@
+body{
+    background-color: #eee;
+}
+
+main {
+    border: 2px inset gray;
+    padding: 5%;
+    background-color:ghostwhite;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin: 0 1vw;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 3vh;
+}
+
+
+ 
